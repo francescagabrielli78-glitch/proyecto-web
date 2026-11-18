@@ -502,8 +502,9 @@ justify-content: space-between;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .contenido-pagina {
-        animation: entrada-suave 250ms ease-out;
+    .contenido-pagina.entrada-inicio,
+    .contenido-pagina.entrada-personajes {
+        animation-duration: 450ms;
     }
 }
 
