@@ -572,6 +572,20 @@ justify-content: space-between;
     margin-bottom: 100px;
     
 }
+
+.leer-mas summary {
+    color: #255034;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.leer-mas summary:hover {
+    text-decoration: underline;
+}
+
 @keyframes entrada-suave {
     from { opacity: 0; }
     to   { opacity: 1; }
