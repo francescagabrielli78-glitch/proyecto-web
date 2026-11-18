@@ -825,7 +825,229 @@ a {
 
 }
 
-/* CELULAR */
-@media (max-width: 480px) {
+/* CELULARES Y PANTALLAS PEQUEÑAS */
+@media (max-width: 768px) {
 
+    .layout-card,
+    .layout-card * {
+        box-sizing: border-box;
+    }
+
+    .layout-card {
+        width: 100%;
+        border: none;
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Encabezado y menú */
+    .barrasuperior {
+        padding: 8px 12px;
+    }
+
+    .menu-icon img {
+        width: 44px;
+        display: block;
+    }
+
+    .top-title {
+        font-size: 25px;
+    }
+
+    #menu-desplegable {
+        width: 100%;
+        padding: 12px;
+    }
+
+    /* Imagen principal de Inicio */
+    .logo {
+        height: auto;
+    }
+
+    .logo img {
+        height: auto;
+    }
+
+    /* Frase de Inicio */
+    .frase {
+        min-height: 300px;
+        padding: 40px 20px;
+    }
+
+    .frase p {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+
+    /* Tarjetas de Inicio */
+    .inicio-grupo {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .inicio-1 {
+        width: 100%;
+        margin-bottom: 0;
+        padding: 16px;
+    }
+
+    .inicio-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .inicio-1 h3 {
+        font-size: 28px;
+    }
+
+    /* Títulos de las páginas */
+    .titulo-momentos,
+    .titulo-integrantes,
+    .titulo-relaciones,
+    .titulo-personajes,
+    .titulo-final,
+    .titulo-premios {
+        font-size: 30px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        overflow-wrap: anywhere;
+    }
+
+    .subtitulo-personajes,
+    .subtitulo-premios,
+    .frase-final {
+        font-size: 23px;
+        margin-bottom: 30px;
+    }
+
+    /* Grupos de contenido */
+    .momentos-grupo,
+    .integrantes-grupo,
+    .relaciones-grupo,
+    .personajes-grupo,
+    .premios-grupo,
+    .final-grupo {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    /* Foto y texto uno debajo del otro */
+    .momento-fila,
+    .integrantes-fila,
+    .relaciones-fila {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+
+    .momento-fila img,
+    .integrantes-fila img,
+    .relaciones-fila img,
+    .relacion-ultima img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .momento-texto,
+    .integrantes-texto,
+    .relaciones-texto {
+        width: 100%;
+        padding: 0;
+    }
+
+    .momento-fila h3,
+    .integrantes-fila h3,
+    .relaciones-fila h3,
+    .personajes-fila h3,
+    .premios-fila h3 {
+        font-size: 25px;
+    }
+
+    .momento-fila p,
+    .integrantes-fila p,
+    .relaciones-fila p,
+    .personajes-fila p,
+    .premios-fila p,
+    .explicacion-final p {
+        font-size: 18px;
+        line-height: 1.6;
+        overflow-wrap: break-word;
+    }
+
+    /* Imágenes que funcionan como enlaces */
+    .video-conocen,
+    .video-viaje,
+    .video-pelea {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Bloque destacado de Los tres */
+    .relacion-ultima {
+        padding: 30px 16px;
+        margin-bottom: 0;
+    }
+
+    /* Personajes y Premios */
+    .personajes-grupo,
+    .premios-grupo {
+        flex-direction: column;
+    }
+
+    .personajes-fila,
+    .premios-fila {
+        width: 100%;
+    }
+
+    .personajes-fila img,
+    .premios-fila img {
+        width: 100%;
+        height: auto;
+    }
+
+    .personajes-texto,
+    .premios-texto {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    /* El final */
+    .explicacion-final {
+        width: 100%;
+        text-align: left;
+    }
+
+    .final-grupo {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .final-fila {
+        width: 100%;
+    }
+
+    .final-fila img {
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    
+
+    /* Pie de página */
+    .footer {
+        padding: 24px 16px;
+    }
+
+    .footer p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
 }
