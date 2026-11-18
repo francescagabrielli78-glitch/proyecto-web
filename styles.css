@@ -177,6 +177,12 @@ justify-content: space-between;
     }
 }
 
+@media (prefers-reduced-motion: no-preference) {
+    .contenido-pagina.entrada-inicio {
+        animation-duration: 450ms;
+    }
+}
+
 .momentos-grupo {
     display: flex;
     flex-direction: column;
