@@ -22,7 +22,7 @@ if (botonArriba) {
 
         window.scrollTo({
             top: 0,
-            behavior: reducirMovimiento ? "instant" : "smooth"
+            behavior:  "smooth"
         });
     });
 
