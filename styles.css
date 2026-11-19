@@ -792,16 +792,16 @@ a {
 
 #volver-arriba {
     position: fixed;
-    bottom: 24px;
+    bottom: 12px;
     right: 24px;
     z-index: 1100;
     width: 48px;
     height: 48px;
+    padding: 0;
     border: none;
-    border-radius: 50%;
-    background-color: #255034;
-    color: #E8DFC8;
-    font-size: 28px;
+    background: transparent;
+    color: rgba(37, 80, 52, 0.6);
+    font-size: 40px;
     cursor: pointer;
     visibility: hidden;
     opacity: 0;
@@ -815,7 +815,7 @@ a {
 }
 
 #volver-arriba:hover {
-    background-color: #79191c;
+    color: #255034;
 }
 
 @media (prefers-reduced-motion: no-preference) {
