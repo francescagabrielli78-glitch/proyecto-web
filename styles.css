@@ -874,7 +874,7 @@ a {
    #menu-desplegable {
     width: 210px;
     max-width: calc(100vw - 24px);
-    left: 12px;
+    left: 0;
     padding: 8px;
     border-radius: 0 0 10px 10px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
