@@ -789,6 +789,41 @@ a {
     border:3px solid #255034;
 }
 
+
+#volver-arriba {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 1100;
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background-color: #255034;
+    color: #E8DFC8;
+    font-size: 28px;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#volver-arriba.visible {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#volver-arriba:hover {
+    background-color: #79191c;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    #volver-arriba {
+        transition: opacity 200ms ease;
+    }
+}
+
 /* TABLET */
 @media (max-width: 768px) {
     .container {
