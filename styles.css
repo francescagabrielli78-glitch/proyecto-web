@@ -399,10 +399,10 @@ margin: 0 auto;
 .relacion-ultima {
     flex-direction: column;
     align-items: center;
-   background-color: #EADCC4;
+    background-color: #CBD2BC;
    padding: 48px 24px;
    margin-bottom: 0;
-   border-image: linear-gradient(#EADCC4, #EADCC4) fill 0 / 0 / 0 100vmax;
+   border-image: linear-gradient(#CBD2BC, #CBD2BC) fill 0 / 0 / 0 100vmax;
 }
 
 .relacion-ultima img {
