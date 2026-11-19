@@ -215,7 +215,7 @@ justify-content: space-between;
 .momento-fila {
     display: flex;
     margin-bottom: 140px;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     gap: 70px;
 }
