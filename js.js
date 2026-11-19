@@ -8,7 +8,7 @@ const botonArriba = document.getElementById("volver-arriba");
 
 if (botonArriba) {
     function actualizarBotonArriba() {
-        botonArriba.classList.toggle("visible", window.scrollY > 300);
+        botonArriba.classList.toggle("visible", window.scrollY > 600);
     }
 
     window.addEventListener("scroll", actualizarBotonArriba, {
