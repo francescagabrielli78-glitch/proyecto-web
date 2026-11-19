@@ -143,6 +143,15 @@ justify-content: space-between;
     font-family:'Courier New', Courier, monospace
 }
 
+.footer a {
+    display: block;
+    color: inherit;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
 .top-title {
     font-size: 28px;
     font-family: 'Archivo Black', sans-serif;
